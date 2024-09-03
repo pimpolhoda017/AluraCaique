@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-image: url(https://jornalismojunior.com.br/wp-content/uploads/2023/01/Julia-Galvao-A-representacao-do-Coringa-nas-historias-em-quadrinho-e-nos-filmes.png.webp);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(253, 253, 253);
+}
+
+.chamada {
+   
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 100;
+    height: 250px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(255, 255, 255);
+}
